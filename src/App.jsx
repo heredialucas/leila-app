@@ -142,14 +142,14 @@ export default function App() {
 
           <Box sx={{ display: "flex", marginBottom: 2, gap: 1 }}>
             <TextField
-              label="Filtrar por posición o nombre"
+              label="Filter by name"
               variant="outlined"
               value={filter}
               onChange={(e) => setFilter(e.target.value)}
               fullWidth
             />
             <TextField
-              label="Cantidad"
+              label="Quantity"
               type="number"
               variant="outlined"
               value={quantity}
