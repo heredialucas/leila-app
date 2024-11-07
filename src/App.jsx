@@ -237,7 +237,6 @@ export default function App() {
               variant="outlined"
               value={quantity}
               onChange={(e) => setQuantity(parseInt(e.target.value) || 1)}
-              inputProps={{ min: 1 }}
               sx={{ width: "100px" }}
             />
             <Button
@@ -307,7 +306,6 @@ export default function App() {
                             parseInt(e.target.value) || 1
                           )
                         }
-                        inputProps={{ min: 1 }}
                         sx={{ width: "60px" }}
                       />
                     </TableCell>
