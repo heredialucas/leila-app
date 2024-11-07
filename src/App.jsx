@@ -220,7 +220,7 @@ export default function App() {
               marginBottom: "1rem",
             }}
           >
-            Orders Leisla
+            Orders Leilas
           </h1>
 
           <Box sx={{ display: "flex", marginBottom: 2, gap: 1 }}>
