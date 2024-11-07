@@ -110,7 +110,7 @@ const menu = [
 export default function App() {
   const [selectedItems, setSelectedItems] = useState([]);
   const [filter, setFilter] = useState("");
-  const [quantity, setQuantity] = useState(1);
+  const [quantity, setQuantity] = useState(0);
   const [selectedItem, setSelectedItem] = useState(null);
   const [commentDialogOpen, setCommentDialogOpen] = useState(false);
   const [currentCommentItem, setCurrentCommentItem] = useState(null);
@@ -236,7 +236,7 @@ export default function App() {
               type="number"
               variant="outlined"
               value={quantity}
-              onChange={(e) => setQuantity(parseInt(e.target.value) || 1)}
+              onChange={(e) => setQuantity(parseInt(e.target.value) || "")}
               sx={{ width: "100px" }}
             />
             <Button
@@ -303,7 +303,7 @@ export default function App() {
                         onChange={(e) =>
                           handleQuantityChange(
                             item.position,
-                            parseInt(e.target.value) || 1
+                            parseInt(e.target.value) || ""
                           )
                         }
                         sx={{ width: "60px" }}
