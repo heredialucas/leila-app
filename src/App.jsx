@@ -122,8 +122,8 @@ export default function App() {
     <Box
       sx={{
         display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
+        justifyContent: "start",
+        alignItems: "start",
         minHeight: "100vh",
         bgcolor: "background.default",
       }}
