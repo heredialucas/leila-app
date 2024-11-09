@@ -228,4 +228,73 @@ export const menu = [
     name: "Latte / Latte Macchiato / Melange",
   },
   { color: "#c2dad4", position: 142, name: "Sahlab" },
+  {
+    color: "#c2daf6",
+    position: 143,
+    name: "Lebanon - Chateau Musar Jeune White",
+  },
+  {
+    color: "#c2daf6",
+    position: 144,
+    name: "Mátra - Molnár és Fiai Olaszrizling",
+  },
+  { color: "#c2daf6", position: 145, name: "Pécs - Lisicza Zöldveltelini" },
+  { color: "#c2daf6", position: 146, name: "Villány - Gere Attila Frici" },
+  { color: "#c2daf6", position: 147, name: "Törley Ice" },
+  { color: "#c2daf6", position: 148, name: "Hungária Grande Cuvée Brut" },
+  {
+    color: "#c2daf6",
+    position: 149,
+    name: "Olaszország - Villa Sandi Prosecco DOC Frizzante",
+  },
+  {
+    color: "#c2daf6",
+    position: 150,
+    name: "Argentina - Fineha Flichman Malbec",
+  },
+  {
+    color: "#c2daf6",
+    position: 151,
+    name: "Szekszárd - Mészáros Grandiózus Syrah",
+  },
+  {
+    color: "#c2daf6",
+    position: 152,
+    name: "Szekszárd - Pásztor Borászat Cabernet Sauvignon",
+  },
+  {
+    color: "#c2daf6",
+    position: 153,
+    name: "Lebanon - Chateau Musar Hochar Pere et Fils",
+  },
+  { color: "#c2daf6", position: 154, name: "Pannonhalma - Cseri Rosé" },
+  { color: "#c2daf6", position: 155, name: "Villány - Günzer Cabernet Franc" },
+  {
+    color: "#c2daf6",
+    position: 156,
+    name: "Olaszország - Zonin Sasso Primitivo",
+  },
+  {
+    color: "#c2daf6",
+    position: 157,
+    name: "Argentina - Barons Philippe de Rothchild Merlot",
+  },
+  { color: "#c2daf6", position: 158, name: "Pannonhalma - Cseri Irsai Olivér" },
+  {
+    color: "#c2daf6",
+    position: 159,
+    name: "Etyek - Vabrik és Fiai Sauvignon Blanc",
+  },
+  {
+    color: "#c2daf6",
+    position: 160,
+    name: "Új-Zéland - Villa Maria Sauvignon Blanc",
+  },
+  { color: "#c2daf6", position: 161, name: "Tokaj - Royal Tokaji Furmint Dry" },
+  { color: "#c2daf6", position: 162, name: "Olaszország - Zonin Pinot Grigio" },
+  {
+    color: "#c2daf6",
+    position: 163,
+    name: "Franciaország - Laroche Chardonnay de la Chevalier",
+  },
 ];
